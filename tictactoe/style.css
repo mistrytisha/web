@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(17, 60, 50);
+    color: antiquewhite;
+}
+.container{
+    width: 70vh;
+    height: 400px;
+    justify-content: center;
+    margin-top: 20px;
+    
+
+}
+.btn{
+    width: 50vmin;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.box{
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+    border-color: aliceblue;
+    border-radius: 10px ;
+    color: brown;
+    font-size: 35px;
+    background-color: antiquewhite;
+}
+#resetbtn{
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: black;
+    border: none;
+}
